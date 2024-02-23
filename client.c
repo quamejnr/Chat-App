@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
     exit(1);
   }
 
-  printf("connecting to %s...\n", port_number);
+  printf("connected to %s...\n", port_number);
 
   // free address structs
   freeaddrinfo(server_info);
